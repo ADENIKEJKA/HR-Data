@@ -51,4 +51,18 @@ EDA entailed examining the data to get answers to a few queries about it, such a
 
 ### Data Analysis
 ---
-This is where we included some of the DAX expressions used during the analysis;
+This is where we included some basic lines of code and some of the DAX expressions used during the analysis;
+```Power BI
+= Table.AddColumn(#"Changed Type1", "Custom", each if [Attrition] = "Yes" then 1 else 0)
+
+= Table.TransformColumnTypes(#"Renamed Columns",{{"Attrition Count", Int64.Type}})
+
+= Table.AddColumn(#"Changed Type2", "Age range", each if [CF_age band] = "under 25" then 1 else if [CF_age band] = "25-34" then 2 else if [CF_age band] = "35-44" then 3 else if [CF_age band] = "45-54" then 4 else 5)
+
+= Table.RenameColumns(#"Changed Type3",{{"Age range", "Age Sort"}})
+
+= Table.AddColumn(#"Renamed Columns1", "Job Satisfaction Rating", each if [Job Satisfaction] = 1 then "Very dissatisfied" else if [Job Satisfaction] = 2 then "Dissatisfied" else if [Job Satisfaction] = 3 then "Satisfied" else "Very Satisfied")
+```
+
+### Data Visualization
+---
