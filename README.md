@@ -14,6 +14,8 @@
 
 [Data Analysis](#data-analysis)
 
+[Data Visualization](#data-visualization)
+
 [Inferences](#inferences)
 
 [Conclusions](#conclusion)
@@ -66,3 +68,4 @@ This is where we included some basic lines of code and some of the DAX expressio
 
 ### Data Visualization
 ---
+![HR Data Analysis](https://github.com/user-attachments/assets/a9edf1c7-a5c2-454a-a962-42b2dc6a1cda)
