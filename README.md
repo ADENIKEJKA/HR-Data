@@ -38,4 +38,17 @@ The primary source of this HR Data is an excel document saved in CSV format whic
 In the initial phase of data cleaning and preparation, the following tasks were completed:
 1. Data loading and examination
 2. Removal of Duplicate information in the data
-3. Formatting and data cleaning
+3. Managing variables that are absent
+4. Formatting and data cleaning
+
+### Exploratory Data Analysis
+---
+EDA entailed examining the data to get answers to a few queries about it, such as:
+- What is the total number of current employees?
+- What is the total number of attrition count?
+- What is the percentage of attrition rate?
+- Which department has the highest rate of attrition?
+
+### Data Analysis
+---
+This is where we included some of the DAX expressions used during the analysis;
