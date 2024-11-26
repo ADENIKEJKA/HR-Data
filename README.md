@@ -1,6 +1,6 @@
 # HR-Data
 
-### Project Title: Incubator Hub HR Data Analysis
+## Project Title: Incubator Hub HR Data Analysis
 
 [Project Overview](#project-overview)
 
